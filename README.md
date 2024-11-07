@@ -26,3 +26,5 @@ The goal of this project is to create an innovative platform that transforms ima
    ```sh
    git clone https://github.com/YourUsername/SamuraiAi-Image-Generator.git
    cd SamuraiAi-Image-Generator
+git fetch origin
+git checkout 1-update-readmemd
