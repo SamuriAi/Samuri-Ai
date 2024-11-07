@@ -1,0 +1,8 @@
+AI-Image-Generator/
+echo "MIT License\n\nCopyright (c) 2024 YourName\n\nPermission is hereby granted, free of charge..." > LICENSE
+echo "Flask==2.0.2\ntorch==1.10.0\ntransformers==4.12.3\nPillow==8.4.0\nrequests==2.26.0\nlibrosa==0.8.1\nnumpy==1.21.2" > requirements.txt
+mkdir -p app/templates
+echo "<!DOCTYPE html>\n<html lang='en'>\n<head>\n<meta charset='UTF-8'>..." > app/templates/index.html
+git init
+git add .
+git commit -m "Initial commit with project structure and core files"
